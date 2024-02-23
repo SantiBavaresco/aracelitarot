@@ -10,7 +10,7 @@ const C1Testitomios = () => {
             {/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */}
             {/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */}
             {C1Testimonios.data.map((item, index) => (
-                <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800 flex-1">
+                <div key={`Testimonio-${index}`} className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800 flex-1">
                     <section className="text-gray-600 body-font">
                         <div className="container ">
                             <div className=" text-center mb-4">
