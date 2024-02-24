@@ -18,14 +18,14 @@ export const Navbar = () => {
         <NextUINavbar  isBordered className="w-full bg-orange-100 dark:bg-mid-orange pb-1 ">
             <NavbarBrand>
                 {/* <AcmeLogo /> */}
-				<Link color="foreground" href="/">
+				<Link color="foreground" href="/" className="scroll-smooth">
 				<Image  src="../logo-tarot.png" className=" rounded-full border-1 border-black mt-2" alt="1" width={50} />
                 <p className="font-bold text-inherit ml-4 dark:text-gray-800">Araceli TAROT</p>
 				</Link>
             </NavbarBrand>
             <NavbarContent className="hidden sm:flex gap-4" justify="center">
                 <NavbarItem>
-                    <Link color="foreground" href="/">
+                    <Link color="foreground" href="/" className="scroll-smooth">
                         Inicio
                     </Link>
                 </NavbarItem>

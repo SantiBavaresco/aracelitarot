@@ -6,6 +6,7 @@ import { Providers } from "./providers";
 import { Navbar } from "@/components/navbar";
 import { Link } from "@nextui-org/link";
 import clsx from "clsx";
+import SimpleSlider from "@/components/imageSlider";
 
 export const metadata: Metadata = {
 	title: {
@@ -40,6 +41,7 @@ export default function RootLayout({
 			>
 				<Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
 				<Navbar />
+				
 					<div className="relative flex flex-col bg-gray-100 px-4 dark:bg-gray-800 " id="home">
 						
 						<main className="container mx-auto max-w-7xl pt-8 px-6 flex-grow" >
@@ -52,7 +54,7 @@ export default function RootLayout({
 								href="https://santiagobavaresco.ar"
 								title="Portfolio Santiago Bavaresco"
 							>
-								<span className="text-default-600">Desarrolado por</span>
+								<span className="text-default-600">Desarrollado por</span>
 								<p className="text-primary">Santiago Bavaresco</p>
 							</Link>
 						</footer>
