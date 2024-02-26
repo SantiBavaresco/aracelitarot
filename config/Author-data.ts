@@ -6,8 +6,13 @@ export const Author = {
     name: "Araceli",
     surname: "Abella",
     phone: "223-525-3635",
+    class: "Instructura",
+    rank: "FUNDADORA",
     title: "Tarot, Numerologia, Radiestesia, Runas.",
     description: "Apasionada por el tarot, te invito a sumergirte en este mundo apasionante que te servirá para tu crecimiento personal, y para ayudar a otros.",
+    titleAbout: "Tarotismo y Numerología",
+    about1: "Un párrafo de relleno es un fragmento de txto utilizado para ocupar espacio o proporcionar contexto sin añadir información relevante o específica al tema principal. Amenudo se utiliza en borradores, maquetas o ejemplos para simular contenido real y ayudar a visualizar la apariencia final de un documento o diseño. Este tipo de texto puede ser útil durante el proceso de desarrollo, permitiendo a los creadores centrarse en la estructura y el diseño antes de incorporar el contenido final.",
+    about2: "Muestro mis habilidades como tarotista, numerologa, grafologa, radiestesia y Vitkis o Seer (runas).",
     socialmedia: {
         instagram: {
             url: "https://www.instagram.com/aracelitarot/",

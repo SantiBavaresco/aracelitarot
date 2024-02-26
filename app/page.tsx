@@ -30,9 +30,7 @@ import SimpleSlider from "@/components/imageSlider";
 export default function Home() {
     return (
         <main className="min-h-screen bg-gray-100 px-0 dark:bg-gray-800 md:px-20 lg:px-40 overflow-visible">
-            {/* <section>
-            <SimpleSlider/>
-			</section> */}
+            
             {/* ------------------------------ PROLOGO ------------------------------ */}
             <section className="" id="prologo">
                 <div className="text-center px-1">
@@ -186,37 +184,24 @@ export default function Home() {
                                     SOBRE MI
                                 </span>
                                 <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4 dark:text-high-orange">
-                                    Tarotismo y Numerología
+                                    {Author.titleAbout}
                                 </h2>
                                 <p className="indent-6 leading-relaxed mb-8 dark:text-gray-300">
-                                    Un párrafo de relleno es un fragmento de
-                                    texto utilizado para ocupar espacio o
-                                    proporcionar contexto sin añadir información
-                                    relevante o específica al tema principal. A
-                                    menudo se utiliza en borradores, maquetas o
-                                    ejemplos para simular contenido real y
-                                    ayudar a visualizar la apariencia final de
-                                    un documento o diseño. Este tipo de texto
-                                    puede ser útil durante el proceso de
-                                    desarrollo, permitiendo a los creadores
-                                    centrarse en la estructura y el diseño antes
-                                    de incorporar el contenido final.
+                                    {Author.about1}
                                 </p>
 
                                 <p className="indent-6 leading-relaxed mb-8 dark:text-gray-300">
-                                    Muestro mis habilidades como tarotista,
-                                    numerologa, grafologa, radiestesia y Vitkis
-                                    o Seer (runas).
+                                    {Author.about2}
                                 </p>
 
                                 <a className="inline-flex items-center">
                                     {/* <Image alt="blog" src="https://dummyimage.com/103x103" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"> */}
                                     <span className="flex-grow flex flex-col pl-4">
                                         <span className="title-font font-medium text-gray-900 dark:text-high-orange">
-                                            Araceli Abella
+                                            {Author.fullname}
                                         </span>
                                         <span className="text-gray-400 text-xs tracking-widest mt-0.5 dark:text-gray-300">
-                                            FUNDADORA
+                                            {Author.rank}
                                         </span>
                                     </span>
                                 </a>
@@ -226,8 +211,11 @@ export default function Home() {
                 </section>
                 {/* ------------------------------ Video y presentacion ------------------------------ */}
             </section>
+            <section >
+                <SimpleSlider/>
+			</section>
             {/* +++++++++++++++++++++++++++++++++  CARDS  +++++++++++++++++++++++++++++++++ */}
-            <section id="cursos">
+            <section id="cursos" className="mt-10">
                 <span className="ml-6 mb-0 md:inline-block md:mb-4 py-1 px-2  rounded bg-yellow-50 text-yellow-500 text-xs font-medium tracking-widest dark:bg-high-orange dark:text-gray-900">
                     CURSOS
                 </span>
@@ -236,10 +224,10 @@ export default function Home() {
                         <div className="lg:flex gap-10  ">
                             <div className="flex flex-wrap -mx-10 md:-m-12 ">
                                 {/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */}
-                                <div className=" p-12 md:p-12  md:w-1/2 flex flex-col items-center text-center shadow-lg  rounded-xl my-10 dark:bg-gray-700 flex-1">
+                                <div className=" px-12 py-1 md:p-12  md:w-1/2 flex flex-col items-center text-center shadow-lg  rounded-xl my-5 dark:bg-gray-700 flex-1">
                                     <div className="container px-0 py-24 mx-auto -mt-24">
                                         <div className="flex flex-wrap -m-12 md:px-16">
-                                            <div className="p-12 md:w-1/2 flex flex-col items-start">
+                                            <div className="p-6 md:w-1/2 flex flex-col items-start">
                                                 <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-6 dark:text-high-orange">
                                                     {item.name}
                                                 </h2>

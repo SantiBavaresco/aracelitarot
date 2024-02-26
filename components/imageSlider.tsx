@@ -2,8 +2,15 @@
 
 import React, {Component} from "react";
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image"
-import card1 from "@/public/img/cards/1.jpg"
+import card1 from "@/public/img/cards/1.png"
+import card2 from "@/public/img/cards/2.png"
+import card3 from "@/public/img/cards/3.png"
+import card4 from "@/public/img/cards/4.png"
+import card5 from "@/public/img/cards/5.png"
+
 
 
 export default class SimpleSlider extends Component  {
@@ -13,14 +20,31 @@ export default class SimpleSlider extends Component  {
     centerMode: true,
     infinite: true,
     centerPadding: "60px",
-    slidesToShow: 3,
-    speed: 500,
+    slidesToShow: 1,
+    autoplay: true,
+    speed: 1500,
+    autoplaySpeed: 2500,
+    cssEase: "linear",
+
+
+    
+    // className: "center",
+    // centerMode: true,
+    // // dots: true,
+    // infinite: true,
+    // centerPadding: "60px",
+    // slidesToShow: 3,
+    // slidesToScroll: 1,
+    // autoplay: true,
+    // speed: 200,
+    // autoplaySpeed: 2500,
+    // cssEase: "linear",
     responsive: [
         {
             breakpoint: 1024,
             settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
+                slidesToShow: 1,
+                slidesToScroll: 1,
                 infinite: true,
                 dots: true,
             },
@@ -28,9 +52,9 @@ export default class SimpleSlider extends Component  {
         {
             breakpoint: 600,
             settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-                initialSlide: 2,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                initialSlide: 1,
             },
         },
         {
@@ -46,28 +70,26 @@ export default class SimpleSlider extends Component  {
     <div className="slider-container">
 
                 <Slider {...settings} >
-                    <div >
+                    <div>
                         {/* <img src="../../public/img/solerpalau/tda/imgbanner/1.jpg" alt="Imagen" > */}
                         {/* <h1 style={{width:"1280px", height: "200px", objectFit: "cover", objectPosition: "center"}}>1</h1> */}
                         
-                        <Image width={200} height={200} alt="Imagen 1" src={card1}  />
+                        <Image width={1000} height={1000} alt="Imagen 1" src={card1}  />
                     </div>
                     <div >
-                        <Image width={200} height={200} alt="Imagen 2" src={card1}  />
+                        <Image width={1000} height={1000} alt="Imagen 2" src={card2}  />
                     </div>
-                    {/* <div >
-                        <Image width={200} height={200} alt="Imagen 3" src={"../../public/img/cards/1.jpg"}  />
+                    <div >
+                        <Image width={1000} height={1000} alt="Imagen 3" src={card3}  />
                     </div>
 
                     <div >
-                        <Image width={200} height={200} alt="Imagen 1" src={"../../public/img/cards/1.jpg"}  />
+                        <Image width={1000} height={1000} alt="Imagen 1" src={card4}  />
                     </div>
                     <div >
-                        <Image  width={200} height={200} alt="Imagen 2" src="../../public/img/cards/1.jpg"  />
+                        <Image  width={1000} height={1000} alt="Imagen 2" src={card5}  />
                     </div>
-                    <div >
-                        <Image width={200} height={200} alt="Imagen 3" src={"../../public/img/cards/1.jpg"}  />
-                    </div> */}
+                   
                 </Slider>
                 
             </div>
