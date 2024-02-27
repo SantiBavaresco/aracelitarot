@@ -5,11 +5,27 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image"
-import card1 from "@/public/img/cards/1.png"
-import card2 from "@/public/img/cards/2.png"
-import card3 from "@/public/img/cards/3.png"
-import card4 from "@/public/img/cards/4.png"
-import card5 from "@/public/img/cards/5.png"
+import * as fs from "fs";
+import card1 from "@/public/img/cards/c1.jpeg"
+import card2 from "@/public/img/cards/c2.jpeg"
+import card3 from "@/public/img/cards/c1.jpeg"
+import card4 from "@/public/img/cards/c4.jpeg"
+import card5 from "@/public/img/cards/c5.jpeg"
+import card6 from "@/public/img/cards/c1.jpeg"
+import card7 from "@/public/img/cards/c2.jpeg"
+import card8 from "@/public/img/cards/c1.jpeg"
+import card9 from "@/public/img/cards/c4.jpeg"
+import card10 from "@/public/img/cards/c5.jpeg"
+import card11 from "@/public/img/cards/c1.jpeg"
+import card12 from "@/public/img/cards/c2.jpeg"
+import card13 from "@/public/img/cards/c1.jpeg"
+import card14 from "@/public/img/cards/c4.jpeg"
+import card15 from "@/public/img/cards/c5.jpeg"
+import card16 from "@/public/img/cards/c1.jpeg"
+import card17 from "@/public/img/cards/c2.jpeg"
+import card18 from "@/public/img/cards/c1.jpeg"
+import card19 from "@/public/img/cards/c4.jpeg"
+import card20 from "@/public/img/cards/c5.jpeg"
 
 
 
@@ -20,14 +36,12 @@ export default class SimpleSlider extends Component  {
     centerMode: true,
     infinite: true,
     centerPadding: "60px",
-    slidesToShow: 1,
+    slidesToShow: 3,
     autoplay: true,
     speed: 1500,
     autoplaySpeed: 2500,
     cssEase: "linear",
 
-
-    
     // className: "center",
     // centerMode: true,
     // // dots: true,
@@ -66,30 +80,49 @@ export default class SimpleSlider extends Component  {
         },
     ],  
   };
+
+  // Obtiene la ruta de la carpeta
+    // const dir = "/public/img/cards/";
+    // const cantImg = 21;
+
+    // const route = [];
+
+    // for (let i = 1; i < cantImg; i++) {
+    //     route.push(`${i}`);
+    // }
+
+
   return (
-    <div className="slider-container">
+    <div  className="slider-container " >
+        
 
                 <Slider {...settings} >
-                    <div>
-                        {/* <img src="../../public/img/solerpalau/tda/imgbanner/1.jpg" alt="Imagen" > */}
-                        {/* <h1 style={{width:"1280px", height: "200px", objectFit: "cover", objectPosition: "center"}}>1</h1> */}
-                        
-                        <Image width={1000} height={1000} alt="Imagen 1" src={card1}  />
-                    </div>
-                    <div >
-                        <Image width={1000} height={1000} alt="Imagen 2" src={card2}  />
-                    </div>
-                    <div >
-                        <Image width={1000} height={1000} alt="Imagen 3" src={card3}  />
-                    </div>
+                {/* {route.map((item) => (
+                    <div key={item}><Image width={1000} height={1000} alt={`c${item}`} src={`${dir}c${item}.jpeg`}  /></div>
+                ))} */}
+                    <div> <Image width={1000} height={1000} alt="Imagen 1" src={card1}  /> </div>
+                    <div> <Image width={1000} height={1000} alt="Imagen 1" src={card2}  /> </div>
+                    <div> <Image width={1000} height={1000} alt="Imagen 1" src={card3}  /> </div>
+                    <div> <Image width={1000} height={1000} alt="Imagen 1" src={card4}  /> </div>
+                    <div> <Image width={1000} height={1000} alt="Imagen 1" src={card5}  /> </div>
+                    <div> <Image width={1000} height={1000} alt="Imagen 1" src={card6}  /> </div>
+                    <div> <Image width={1000} height={1000} alt="Imagen 1" src={card7}  /> </div>
+                    <div> <Image width={1000} height={1000} alt="Imagen 1" src={card8}  /> </div>
+                    <div> <Image width={1000} height={1000} alt="Imagen 1" src={card9}  /> </div>
+                    <div> <Image width={1000} height={1000} alt="Imagen 1" src={card10}  /> </div>
+                    <div> <Image width={1000} height={1000} alt="Imagen 1" src={card11}  /> </div>
+                    <div> <Image width={1000} height={1000} alt="Imagen 1" src={card12}  /> </div>
+                    <div> <Image width={1000} height={1000} alt="Imagen 1" src={card13}  /> </div>
+                    <div> <Image width={1000} height={1000} alt="Imagen 1" src={card14}  /> </div>
+                    <div> <Image width={1000} height={1000} alt="Imagen 1" src={card15}  /> </div>
+                    <div> <Image width={1000} height={1000} alt="Imagen 1" src={card16}  /> </div>
+                    <div> <Image width={1000} height={1000} alt="Imagen 1" src={card17}  /> </div>
+                    <div> <Image width={1000} height={1000} alt="Imagen 1" src={card18}  /> </div>
+                    <div> <Image width={1000} height={1000} alt="Imagen 1" src={card19}  /> </div>
+                    <div> <Image width={1000} height={1000} alt="Imagen 1" src={card20}  /> </div>
 
-                    <div >
-                        <Image width={1000} height={1000} alt="Imagen 1" src={card4}  />
-                    </div>
-                    <div >
-                        <Image  width={1000} height={1000} alt="Imagen 2" src={card5}  />
-                    </div>
-                   
+
+                    
                 </Slider>
                 
             </div>

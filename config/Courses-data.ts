@@ -25,10 +25,10 @@ import { Course } from "@/models/courses";
 export const Courses : Course[] = [
     {
         id: "c1",
-        name: "Tarotismo",
+        name: "Tarot",
         type: "Virtual / Presencial",
         description:
-            "Un párrafo de relleno es un fragmento de texto utilizado para ocupar espacio o proporcionar contexto sin añadir información relevante o específica al tema principal. A menudo se utiliza en borradores, maquetas o ejemplos para simular contenido real y ayudar a visualizar la apariencia final de un documento o diseño. Este tipo de texto puede ser útil durante el proceso de desarrollo, permitiendo a los creadores centrarse en la estructura y el diseño antes de incorporar el contenido final.",
+            "El tarot es un arte predictivo y que se puede mejorar con la evolución. Te dará herramientas par para tu crecimiento personal y que lo puedas transmitir a los demás. Se redescubrio en el siglo 18 y consta de 78 arcanos ( 22 Mayores y 56 Menores) Se cree que Israel fue el nexo entre Egipto y Occidente,  debido a eso en los 22 arcanos mayores, se encuentran las 22 letras del alfabeto hebreo.",
         author: "Araceli Abella",
         authorRank: "Instructura",
         presentationVideo: "https://youtu.be/vRrcI2Ga7mg",

@@ -10,9 +10,13 @@ export const Author = {
     rank: "FUNDADORA",
     title: "Tarot, Numerologia, Radiestesia, Runas.",
     description: "Apasionada por el tarot, te invito a sumergirte en este mundo apasionante que te servirá para tu crecimiento personal, y para ayudar a otros.",
-    titleAbout: "Tarotismo y Numerología",
-    about1: "Un párrafo de relleno es un fragmento de txto utilizado para ocupar espacio o proporcionar contexto sin añadir información relevante o específica al tema principal. Amenudo se utiliza en borradores, maquetas o ejemplos para simular contenido real y ayudar a visualizar la apariencia final de un documento o diseño. Este tipo de texto puede ser útil durante el proceso de desarrollo, permitiendo a los creadores centrarse en la estructura y el diseño antes de incorporar el contenido final.",
-    about2: "Muestro mis habilidades como tarotista, numerologa, grafologa, radiestesia y Vitkis o Seer (runas).",
+    titleAbout: "Tarot y Numerología",
+    about1: "Me gusta especializarme en lo que hago. Estar en contacto con la naturaleza  y viajar para disfrutar y cultivarse con otras maneras de ver la vida. Muestro mis habilidades como tarotista, numerologa, grafologa, radiestesia y Vitkis o Seer (runas).",
+    about2: "",
+    subtitle1: "Mi Pasado",
+    text1: "Todo comenzó cuando tenía 6 años y hacía que les leía las cartas a mis primos y hermanos con las figurillas de los álbumes. Fui creciendo y siempre me atrapó el saber más. Estudie el secundario, luego Diseño, me case, tuve 4 hijos y un poco quedo de lado el Tarot. Cuando mis hijos se fueron yendo, me  volví a reencontrar con el Tarot, pero ya, de manera muy seria, cultive mi intuición y para tener más conocimientos,  agregué al Tarot, Numerologia, Grafologia, Pendulo y Runas. Y a través de estos conocimientos  enriqueci  el Tarot.",
+    subtitle2: "",
+    text2: "Hoy en día quiero pasar mis conocimientos y mi sapiencia a otras personas, para su crecimiento personal y laboral. Será  un placer poder transmitirte todo lo que se. Gracias, gracias, gracias 💖💖",
     socialmedia: {
         instagram: {
             url: "https://www.instagram.com/aracelitarot/",

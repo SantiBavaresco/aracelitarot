@@ -9,7 +9,6 @@ import {
 import { Tooltip } from "@nextui-org/tooltip";
 import { Image } from "@nextui-org/image";
 
-
 // import Image from 'next/image'
 import YouTubePlayer from "@/components/youtubepayer";
 
@@ -18,11 +17,11 @@ import { Courses } from "@/config/Courses-data";
 
 import consulting from "../public/img/consulting.png";
 import arecelifoto from "../public/img/araceli-foto-nobg.png";
-import cards1 from "../public/img/cards/1.png"
-import cards2 from "../public/img/cards/2.png"
-import cards3 from "../public/img/cards/3.png"
-import cards4 from "../public/img/cards/4.png"
-import cards5 from "../public/img/cards/5.png"
+import cards1 from "../public/img/cards/1.png";
+import cards2 from "../public/img/cards/2.png";
+import cards3 from "../public/img/cards/3.png";
+import cards4 from "../public/img/cards/4.png";
+import cards5 from "../public/img/cards/5.png";
 
 import TestimonialsComponent from "@/components/testimonials";
 import SimpleSlider from "@/components/imageSlider";
@@ -30,7 +29,6 @@ import SimpleSlider from "@/components/imageSlider";
 export default function Home() {
     return (
         <main className="min-h-screen bg-gray-100 px-0 dark:bg-gray-800 md:px-20 lg:px-40 overflow-visible">
-            
             {/* ------------------------------ PROLOGO ------------------------------ */}
             <section className="" id="prologo">
                 <div className="text-center px-1">
@@ -169,8 +167,8 @@ export default function Home() {
                 <section className="text-gray-600 body-font overflow-hidden">
                     <div className="container px-5 pt-24 pb-6 mx-auto">
                         <div className="flex flex-wrap -m-12">
-                            <div className="px-12 sm:-border-b-6 md:w-1/2 flex flex-col items-start">
-                                <div className="relative mx-auto bg-gradient-to-l from-mid-orange to-low-orange  rounded-full w-70 h-70 my-10 overflow-hidden md:h-96 md:w-96">
+                            <div className="px-12 sm:-border-b-6 md:w-1/2 md:pt-10 flex flex-col items-start">
+                                <div className="relative mx-auto bg-gradient-to-l from-mid-orange to-low-orange  rounded-full w-70 h-70 my-10  overflow-hidden md:h-96 md:w-96">
                                     <Image
                                         src="../img/araceli-foto-nobg.png"
                                         className=" mt-2"
@@ -189,11 +187,17 @@ export default function Home() {
                                 <p className="indent-6 leading-relaxed mb-8 dark:text-gray-300">
                                     {Author.about1}
                                 </p>
-
+                                <span className="inline-block py-1 px-2 rounded bg-yellow-50 text-yellow-500 text-xs font-medium tracking-widest dark:bg-high-orange dark:text-gray-900">
+                                    MI PASADO
+                                </span>
                                 <p className="indent-6 leading-relaxed mb-8 dark:text-gray-300">
-                                    {Author.about2}
+                                    {Author.text1}
                                 </p>
-
+                            </div>
+                            <div className="mx-10 -my-12 pl-2 mb-12                            ">
+                                <p className="indent-6 leading-relaxed mb-8 dark:text-gray-300">
+                                    {Author.text2}
+                                </p>
                                 <a className="inline-flex items-center">
                                     {/* <Image alt="blog" src="https://dummyimage.com/103x103" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"> */}
                                     <span className="flex-grow flex flex-col pl-4">
@@ -211,20 +215,24 @@ export default function Home() {
                 </section>
                 {/* ------------------------------ Video y presentacion ------------------------------ */}
             </section>
-            <section >
-                <SimpleSlider/>
-			</section>
+            <section className="max-h-[500px]">
+                <SimpleSlider />
+            </section>
             {/* +++++++++++++++++++++++++++++++++  CARDS  +++++++++++++++++++++++++++++++++ */}
             <section id="cursos" className="mt-10">
                 <span className="ml-6 mb-0 md:inline-block md:mb-4 py-1 px-2  rounded bg-yellow-50 text-yellow-500 text-xs font-medium tracking-widest dark:bg-high-orange dark:text-gray-900">
                     CURSOS
                 </span>
                 {Courses.map((item) => (
-                    <section className="lg:pt-2 w-fit mt-8" key={item.id} id={item.id}>
+                    <section
+                        className="lg:pt-2 w-fit mt-8"
+                        key={item.id}
+                        id={item.id}
+                    >
                         <div className="lg:flex gap-10  ">
                             <div className="flex flex-wrap -mx-10 md:-m-12 ">
                                 {/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */}
-                                <div className=" px-12 py-1 md:p-12  md:w-1/2 flex flex-col items-center text-center shadow-lg  rounded-xl my-5 dark:bg-gray-700 flex-1">
+                                <div className=" px-12 py-10 md:p-12  md:w-1/2 flex flex-col items-center text-center shadow-lg  rounded-xl my-5 dark:bg-gray-700 flex-1">
                                     <div className="container px-0 py-24 mx-auto -mt-24">
                                         <div className="flex flex-wrap -m-12 md:px-16">
                                             <div className="p-6 md:w-1/2 flex flex-col items-start">
@@ -274,7 +282,6 @@ export default function Home() {
                     </section>
                 ))}
             </section>
-			
         </main>
     );
 }
