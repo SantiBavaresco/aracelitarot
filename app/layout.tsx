@@ -46,7 +46,7 @@ export default function RootLayout({
 				
 					<div className="relative flex flex-col bg-gray-100 px-4 dark:bg-gray-800 " id="home">
 						
-						<main className="container max-w-7xl pt-8 px-6 flex-grow" >
+						<main className="container max-w-7xl pt-8 px-6 flex-grow m-auto" >
 							{children}
 						</main>
 						<footer className="w-full flex flex-col items-center justify-center mt-4 py-3">
