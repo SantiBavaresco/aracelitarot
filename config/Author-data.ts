@@ -8,7 +8,7 @@ export const Author = {
     phone: "223-525-3635",
     class: "Instructura",
     rank: "FUNDADORA",
-    title: "Tarot, Numerologia, Radiestesia, Grafoloía, Runas.",
+    title: "Tarot, Numerologia, Radiestesia, Grafología, Runas.",
     description: "Apasionada por el tarot, te invito a sumergirte en este mundo apasionante que te servirá para tu crecimiento personal, y para ayudar a otros.",
     titleAbout: "Tarot y Numerología",
     about1: "Me gusta especializarme en lo que hago. Estar en contacto con la naturaleza  y viajar para disfrutar y cultivarse con otras maneras de ver la vida. Muestro mis habilidades como tarotista, numerologa, grafologa, radiestesia y Vitkis o Seer (runas).",

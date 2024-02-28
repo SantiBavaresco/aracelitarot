@@ -38,7 +38,7 @@ const ModalPdf: React.FC<Props> = ({ url, title, layer, autoplay }) => {
             <Button onPress={onOpen} className={layer}>
                 {title} <FaArrowRightToBracket className="mt-1/2 ml-1/2" />{" "}
             </Button>
-            <Modal isOpen={isOpen} onOpenChange={onOpenChange} size="5xl" scrollBehavior="inside">
+            <Modal isOpen={isOpen} onOpenChange={onOpenChange} size="full" scrollBehavior="inside">
                 <ModalContent>
                     {(onClose) => (
                         <>
