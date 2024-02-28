@@ -28,11 +28,11 @@ export const Courses : Course[] = [
         name: "Tarot",
         type: "Virtual / Presencial",
         description:
-            "El tarot es un arte predictivo y que se puede mejorar con la evolución. Te dará herramientas par para tu crecimiento personal y que lo puedas transmitir a los demás. Se redescubrio en el siglo 18 y consta de 78 arcanos ( 22 Mayores y 56 Menores) Se cree que Israel fue el nexo entre Egipto y Occidente,  debido a eso en los 22 arcanos mayores, se encuentran las 22 letras del alfabeto hebreo.",
+            "El tarot es un arte predictivo que se puede mejorar con la evolución. Te proporcionará herramientas para tu crecimiento personal y para transmitirlo a los demás. Se redescubrió en el siglo XVIII y consta de 78 Arcanos (22 Mayores y 56 Menores). Se cree que Israel fue el nexo entre Egipto y Occidente; debido a eso, en los 22 Arcanos Mayores, se encuentran las 22 letras del alfabeto hebreo.",
         author: "Araceli Abella",
         authorRank: "Instructura",
-        presentationVideo: "https://youtu.be/vRrcI2Ga7mg",
-        presentationVideoId: "vRrcI2Ga7mg",
+        presentationVideo: "https://youtu.be/UKv0yxekXXE",
+        presentationVideoId: "UKv0yxekXXE",
         pdfUrl: "",
         pdfFile: "",
         pdf: "",
@@ -43,8 +43,8 @@ export const Courses : Course[] = [
                 testimonial:
                     "El tarot te cambia la vida y te puede cambiar la percepción de la vida.",
                 rank: "Est. Curso Presencial",
-                url: "https://youtu.be/OW5Lo7sVlBU",
-                videoId: "OW5Lo7sVlBU",
+                url: "https://youtu.be/L-40CcQr4KU",
+                videoId: "L-40CcQr4KU",
             },
             {
                 id: "c1-t2",
@@ -52,8 +52,8 @@ export const Courses : Course[] = [
                 testimonial:
                     "La conexión con las cartas es impresionante, se los recomiendo.",
                 rank: "Est. Curso Presencial",
-                url: "https://youtu.be/OUJk8zL9nw8",
-                videoId: "OUJk8zL9nw8",
+                url: "https://youtu.be/nkA-z2jtgII",
+                videoId: "nkA-z2jtgII",
             },
             {
                 id: "c1-t3",
@@ -61,8 +61,8 @@ export const Courses : Course[] = [
                 testimonial:
                     "El curso fue genial, aprendimos mucho y la pasamos de diez.",
                 rank: "Est. Curso Presencial",
-                url: "https://youtu.be/b1qHD4fArpg",
-                videoId: "b1qHD4fArpg",
+                url: " https://youtu.be/Hf6mGYuarpY",
+                videoId: "Hf6mGYuarpY",
             },
         ],
     },

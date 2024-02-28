@@ -6,6 +6,7 @@ import {
     IoLogoWhatsapp,
     IoLogoFacebook,
 } from "react-icons/io5";
+import { FaArrowTurnDown, FaArrowRightToBracket } from "react-icons/fa6";
 import { Tooltip } from "@nextui-org/tooltip";
 import { Image } from "@nextui-org/image";
 
@@ -17,14 +18,10 @@ import { Courses } from "@/config/Courses-data";
 
 import consulting from "../public/img/consulting.png";
 import arecelifoto from "../public/img/araceli-foto-nobg.png";
-import cards1 from "../public/img/cards/1.png";
-import cards2 from "../public/img/cards/2.png";
-import cards3 from "../public/img/cards/3.png";
-import cards4 from "../public/img/cards/4.png";
-import cards5 from "../public/img/cards/5.png";
 
 import TestimonialsComponent from "@/components/testimonials";
 import SimpleSlider from "@/components/imageSlider";
+import ModalPdf from "@/components/modal";
 
 export default function Home() {
     return (
@@ -77,7 +74,7 @@ export default function Home() {
                                     rel="noopener noreferrer"
                                 >
                                     <div className="">
-                                        <IoLogoTiktok className="text-black hover:text-gray-600" />
+                                        <IoLogoTiktok className="text-black  hover:text-gray-600 dark:text-cyan-400 dark:hover:text-gray-400" />
                                     </div>
                                 </a>
                             </li>
@@ -235,7 +232,7 @@ export default function Home() {
                                 <div className=" px-12 py-10 md:p-12  md:w-1/2 flex flex-col items-center text-center shadow-lg  rounded-xl my-5 dark:bg-gray-700 flex-1">
                                     <div className="container px-0 py-24 mx-auto -mt-24">
                                         <div className="flex flex-wrap -m-12 md:px-16">
-                                            <div className="p-6 md:w-1/2 flex flex-col items-start">
+                                            <div className="p-6 md:w-1/2 flex flex-col  justify-center items-start">
                                                 <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-6 dark:text-high-orange">
                                                     {item.name}
                                                 </h2>
@@ -254,13 +251,32 @@ export default function Home() {
                                                         </span>
                                                     </span>
                                                 </a>
-                                                <h4 className="mt-6 py-4 text-teal-600">
-                                                    ACCEDE AL PDF
-                                                </h4>
+                                                <div className="">
+                                                    <p className=" flex justify-center text-2xl items-center align-middle mt-6 py-4 font-bold text-orange-600 ">
+                                                        Mas informacion
+                                                        <FaArrowTurnDown className="mt-2 pt-1 ml-1" />
+                                                    </p>
+                                                </div>
+
+                                                <div className="w-5/6 md:flex justify-between m-auto mt-5  ">
+                                                    <ModalPdf
+                                                        url="./pdfCursos/c1/cursoGrabado.pdf"
+                                                        title="Curso Grabado"
+                                                        layer="m-4 px-4 py-2 text-xl md:text-base text-gray-100 font-bold bg-blue-500 rounded-md"
+                                                        autoplay={1}
+                                                    />
+
+                                                    <ModalPdf
+                                                        url="./pdfCursos/c1/cursoOnline.pdf"
+                                                        title="Curso Presencial / Virtual"
+                                                        layer="m-4 px-4 py-2 text-xl md:text-base text-gray-100 font-bold bg-high-orange rounded-md"
+                                                        autoplay={1}
+                                                    />
+                                                </div>
                                             </div>
                                             <div className="md:py-12 px-16 md:w-1/2 flex flex-col items-start md:px-16">
                                                 <YouTubePlayer
-                                                    url={"vRrcI2Ga7mg"}
+                                                    url={item.presentationVideoId}
                                                     height={"480"}
                                                     width={"270"}
                                                     autoplay={1}

@@ -8,24 +8,24 @@ import Image from "next/image"
 import * as fs from "fs";
 import card1 from "@/public/img/cards/c1.jpeg"
 import card2 from "@/public/img/cards/c2.jpeg"
-import card3 from "@/public/img/cards/c1.jpeg"
+import card3 from "@/public/img/cards/c3.jpeg"
 import card4 from "@/public/img/cards/c4.jpeg"
 import card5 from "@/public/img/cards/c5.jpeg"
-import card6 from "@/public/img/cards/c1.jpeg"
-import card7 from "@/public/img/cards/c2.jpeg"
-import card8 from "@/public/img/cards/c1.jpeg"
-import card9 from "@/public/img/cards/c4.jpeg"
-import card10 from "@/public/img/cards/c5.jpeg"
-import card11 from "@/public/img/cards/c1.jpeg"
-import card12 from "@/public/img/cards/c2.jpeg"
-import card13 from "@/public/img/cards/c1.jpeg"
-import card14 from "@/public/img/cards/c4.jpeg"
-import card15 from "@/public/img/cards/c5.jpeg"
-import card16 from "@/public/img/cards/c1.jpeg"
-import card17 from "@/public/img/cards/c2.jpeg"
-import card18 from "@/public/img/cards/c1.jpeg"
-import card19 from "@/public/img/cards/c4.jpeg"
-import card20 from "@/public/img/cards/c5.jpeg"
+import card6 from "@/public/img/cards/c6.jpeg"
+import card7 from "@/public/img/cards/c7.jpeg"
+import card8 from "@/public/img/cards/c8.jpeg"
+import card9 from "@/public/img/cards/c9.jpeg"
+import card10 from "@/public/img/cards/c10.jpeg"
+import card11 from "@/public/img/cards/c11.jpeg"
+import card12 from "@/public/img/cards/c12.jpeg"
+import card13 from "@/public/img/cards/c13.jpeg"
+import card14 from "@/public/img/cards/c14.jpeg"
+import card15 from "@/public/img/cards/c15.jpeg"
+import card16 from "@/public/img/cards/c16.jpeg"
+import card17 from "@/public/img/cards/c17.jpeg"
+import card18 from "@/public/img/cards/c18.jpeg"
+import card19 from "@/public/img/cards/c19.jpeg"
+// import card20 from "@/public/img/cards/c20.jpeg"
 
 
 
@@ -119,7 +119,7 @@ export default class SimpleSlider extends Component  {
                     <div> <Image width={1000} height={1000} alt="Imagen 1" src={card17}  /> </div>
                     <div> <Image width={1000} height={1000} alt="Imagen 1" src={card18}  /> </div>
                     <div> <Image width={1000} height={1000} alt="Imagen 1" src={card19}  /> </div>
-                    <div> <Image width={1000} height={1000} alt="Imagen 1" src={card20}  /> </div>
+                    {/* <div> <Image width={1000} height={1000} alt="Imagen 1" src={card20}  /> </div> */}
 
 
                     

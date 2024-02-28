@@ -30,6 +30,6 @@ const YouTubePlayer: React.FC<Props> = ({ url, height, width, autoplay }) => {
         },
       };
     
-      return <YouTube videoId={url} opts={opts} onReady={onPlayerReady} />;
+      return <YouTube className="flex justify-center m-auto" videoId={url} opts={opts} onReady={onPlayerReady} />;
     }
 export default YouTubePlayer;
