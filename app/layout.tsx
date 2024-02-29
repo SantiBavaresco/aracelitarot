@@ -51,17 +51,7 @@ export default function RootLayout({
 						</main>
 						<footer className="w-full flex flex-col items-center justify-center mt-4 py-3">
 							<Divider className="my-4" />
-
 							<Footer autoplay={1}/>
-							{/* <Link
-								isExternal
-								className="flex items-center gap-1 text-current"
-								href="https://santiagobavaresco.ar"
-								title="Portfolio Santiago Bavaresco"
-							>
-								<span className="text-default-600">Desarrollado por</span>
-								<p className="text-primary">Santiago Bavaresco</p>
-							</Link> */}
 						</footer>
 					</div>
 				</Providers>

@@ -16,9 +16,6 @@ import YouTubePlayer from "@/components/youtubepayer";
 import { Author } from "@/config/Author-data";
 import { Courses } from "@/config/Courses-data";
 
-import consulting from "../public/img/consulting.png";
-import arecelifoto from "../public/img/araceli-foto-nobg.png";
-
 import TestimonialsComponent from "@/components/testimonials";
 import SimpleSlider from "@/components/imageSlider";
 import ModalPdf from "@/components/modal";
@@ -152,9 +149,6 @@ export default function Home() {
                             hacia tu cliente.
                         </p>
                     </div>
-                    {/* <p className="text-gray-800 py-1 dark:text-gray-300">
-                        PostGres, MongoDB
-                    </p> */}
                 </div>
             </section>
 
@@ -196,7 +190,6 @@ export default function Home() {
                                     {Author.text2}
                                 </p>
                                 <a className="inline-flex items-center">
-                                    {/* <Image alt="blog" src="https://dummyimage.com/103x103" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"> */}
                                     <span className="flex-grow flex flex-col pl-4">
                                         <span className="title-font font-medium text-gray-900 dark:text-high-orange">
                                             {Author.fullname}
@@ -255,7 +248,7 @@ export default function Home() {
                                                     <p className=" flex justify-center text-6xl items-center align-middle mt-6 py-4 font-bold text-high-orange">
                                                         Más info de los cursos
                                                     </p>
-                                                    <FaArrowTurnDown className="mt-2 pt-1 ml-1 text-5xl text-high-orange" />
+                                                    <FaArrowTurnDown className="mt-2 pt-1 pl-2 text-5xl text-high-orange" />
                                                 </div>
 
                                                 <div className="w-5/6 md:flex justify-between items-center m-auto mt-5 gap-4 ">
@@ -263,18 +256,23 @@ export default function Home() {
                                                         url="./pdfCursos/c1/cursoGrabado.pdf"
                                                         title="Curso Grabado"
                                                         layer="m-auto mt-2 px-4 py-2 text-xl md:text-base text-gray-100 font-bold bg-blue-500 rounded-md"
-                                                        primaryColor={"#033c64"}
-                                                        reflectionColor={"#1c4f73"}
-                                                        borderColor={"blue-500"}
+                                                        primaryColor={"#4c3500"}
+                                                        reflectionColor={"#e5a100"}
+                                                        borderColor={"blue-600"}
+                                                        // primaryColor={"#033c64"}
+                                                        // reflectionColor={"#1c4f73"}
+                                                        // borderColor={"blue-500"}
+                                                        color={false}
                                                     />
 
                                                     <ModalPdf
                                                         url="./pdfCursos/c1/cursoOnline.pdf"
                                                         title="Curso Presencial / Virtual"
-                                                        layer="m-auto mt-2  px-4 py-2 text-xl md:text-base text-gray-100 font-bold bg-high-orange rounded-md"
+                                                        layer="m-auto mt-2 px-4 py-2 text-xl md:text-base text-gray-100 font-bold bg-high-orange rounded-md"
                                                         primaryColor={"#4c3500"}
                                                         reflectionColor={"#e5a100"}
                                                         borderColor={"high-orange"}
+                                                        color={true}
                                                     />
                                                 </div>
                                             </div>
