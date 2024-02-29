@@ -251,30 +251,34 @@ export default function Home() {
                                                         </span>
                                                     </span>
                                                 </a>
-                                                <div className="">
-                                                    <p className=" flex justify-center text-2xl items-center align-middle mt-6 py-4 font-bold text-orange-600 ">
-                                                        Mas informacion
-                                                        <FaArrowTurnDown className="mt-2 pt-1 ml-1" />
+                                                <div className="flex flex-col mx-auto items-center">
+                                                    <p className=" flex justify-center text-6xl items-center align-middle mt-6 py-4 font-bold text-high-orange">
+                                                        Más info de los cursos
                                                     </p>
+                                                    <FaArrowTurnDown className="mt-2 pt-1 ml-1 text-5xl text-high-orange" />
                                                 </div>
 
-                                                <div className="w-5/6 md:flex justify-between m-auto mt-5  ">
+                                                <div className="w-5/6 md:flex justify-between items-center m-auto mt-5 gap-4 ">
                                                     <ModalPdf
                                                         url="./pdfCursos/c1/cursoGrabado.pdf"
                                                         title="Curso Grabado"
-                                                        layer="m-4 px-4 py-2 text-xl md:text-base text-gray-100 font-bold bg-blue-500 rounded-md"
-                                                        autoplay={1}
+                                                        layer="m-auto mt-2 px-4 py-2 text-xl md:text-base text-gray-100 font-bold bg-blue-500 rounded-md"
+                                                        primaryColor={"#033c64"}
+                                                        reflectionColor={"#1c4f73"}
+                                                        borderColor={"blue-500"}
                                                     />
 
                                                     <ModalPdf
                                                         url="./pdfCursos/c1/cursoOnline.pdf"
                                                         title="Curso Presencial / Virtual"
-                                                        layer="m-4 px-4 py-2 text-xl md:text-base text-gray-100 font-bold bg-high-orange rounded-md"
-                                                        autoplay={1}
+                                                        layer="m-auto mt-2  px-4 py-2 text-xl md:text-base text-gray-100 font-bold bg-high-orange rounded-md"
+                                                        primaryColor={"#4c3500"}
+                                                        reflectionColor={"#e5a100"}
+                                                        borderColor={"high-orange"}
                                                     />
                                                 </div>
                                             </div>
-                                            <div className="md:py-12 px-16 md:w-1/2 flex flex-col items-start md:px-16">
+                                            <div className="m-auto md:py-12 px-16 md:w-1/2 flex flex-col items-start md:px-16">
                                                 <YouTubePlayer
                                                     url={item.presentationVideoId}
                                                     height={"480"}
