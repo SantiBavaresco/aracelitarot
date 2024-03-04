@@ -19,9 +19,9 @@ interface Props {
     url: string;
     title: string;
     layer: string;
-    primaryColor: string;
-    reflectionColor: string;
-    borderColor: string;
+    primaryColor?: string;
+    reflectionColor?: string;
+    borderColor?: string;
     color: boolean;
 }
 
