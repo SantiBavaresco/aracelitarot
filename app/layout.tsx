@@ -35,7 +35,7 @@ export default function RootLayout({
 	return (
 		<html style={{scrollbarColor: "#fecb58 #ffedd5", scrollbarWidth: "thin", }} lang="en" suppressHydrationWarning >
 			<head > 
-			<meta property="og:image" content="../../public/tAraceli2.png"/>
+			<meta property="og:image" content="https://camo.githubusercontent.com/5cca1d8d17579aa5d2e602cbe6aadc7d6a91a21dedcdc61c14151fd59a90339f/68747470733a2f2f70696373756d2e70686f746f732f3730302f343830"/>
 			</head>
 			<body
 				className={clsx(
