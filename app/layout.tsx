@@ -35,7 +35,7 @@ export default function RootLayout({
 	return (
 		<html style={{scrollbarColor: "#fecb58 #ffedd5", scrollbarWidth: "thin", }} lang="en" suppressHydrationWarning >
 			<head > 
-			<meta property="og:image" content="@/public/tAraceli2.png"/>
+			<meta property="og:image" content="https://drive.google.com/file/d/1Pw-QhekTKgnfzsYwKrvd05KCzvuuEo9U/view?usp=drive_link"/>
 			</head>
 			<body
 				className={clsx(
