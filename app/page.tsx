@@ -145,9 +145,10 @@ export default function Home() {
                                 <FaArrowTurnDown className="mt-2 mx-auto pt-1 pl-2 text-7xl text-red-500" />
                                 <FaArrowTurnDown className="mt-2 mx-auto pt-1 pl-2 text-7xl text-red-500" />
                             </div>
-                            <h4 className="py-2 text-2xl text-green-600 hover:underline decoration-solid">
-                                ¡ Contactate por WhatsApp !
+                            <h4 className="flex flex-row py-2 text-2xl text-green-600 hover:underline decoration-solid">
+                                ¡ Contactate por WhatsApp ! 
                             </h4>
+                            <IoLogoWhatsapp className="mx-auto text-green-600 text-7xl hover:text-green-400 " />
                         </a>
                         <p className="text-gray-800 py-2 dark:text-gray-300">
                             Puedo darte consejos y trucos para tu mejor atencion
