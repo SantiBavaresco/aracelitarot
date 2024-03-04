@@ -35,7 +35,7 @@ export default function RootLayout({
 	return (
 		<html style={{scrollbarColor: "#fecb58 #ffedd5", scrollbarWidth: "thin", }} lang="en" suppressHydrationWarning >
 			<head > 
-			<meta property="og:image" content="https://i.ibb.co/cw1gsrP/t-Araceli2.png"/>
+			<meta property="og:image" content="https://raw.githubusercontent.com/SantiBavaresco/aracelitarot/main/public/tAraceli2.png?token=GHSAT0AAAAAACNTVDIIDCFFZGRH4DMAAQHQZPF5QQA"/>
 			</head>
 			<body
 				className={clsx(
