@@ -39,7 +39,7 @@ const ModalPdf: React.FC<Props> = ({ url, title, layer, color, primaryColor, ref
     return (
         <div>
             
-            {color ? <button onClick={onOpen} className={`${layer} inline-flex animate-background-shine items-center justify-center rounded-md border border-${borderColor} bg-[linear-gradient(110deg,${primaryColor},45%,${reflectionColor},55%,${primaryColor})] bg-[length:200%_100%] text-gray-200 transition-colors focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-gray-50`}>
+            {color ? <button onClick={onOpen} className={`${layer} inline-flex animate-background-shine items-center justify-center rounded-md border border-high-orange bg-[linear-gradient(110deg,#4c3500,45%,#e5a100,55%,#4c3500)] bg-[length:200%_100%] text-gray-200 transition-colors focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-gray-50`}>
                 {title} <FaArrowRightToBracket className="text-2xl m-auto" />{" "}
             </button> :
             <button onClick={onOpen} className={`${layer} inline-flex items-center justify-center rounded-md border border-blue-600 `}>
