@@ -37,8 +37,8 @@ export default function RootLayout({
 			<head >
 <meta property="og:type" content="website"/>
 <meta property="og:image" content="../public/tAraceli2.png"/>
-<meta property="og:image:width" content="1280"/>
-<meta property="og:image:height" content="720"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="690"/>
 <meta property="og:image:ratio" content="16:9"/>
 			</head>
 			<body
