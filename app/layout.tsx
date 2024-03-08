@@ -36,7 +36,7 @@ export default function RootLayout({
 		<html style={{scrollbarColor: "#fecb58 #ffedd5", scrollbarWidth: "thin", }} lang="en" suppressHydrationWarning >
 			<head > 
 			<meta property="og:image" content="/tAraceli2.png"/>
-<meta property="og:image:ratio" content="3:2">
+<meta property="og:image:ratio" content="3:2"/>
 			</head>
 			<body
 				className={clsx(
