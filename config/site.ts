@@ -1,7 +1,7 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-	name: "♥️ Araceli TAROT ♥️",
+	name: "♥️ Araceli Abella ♥️",
 	description: "Aprende Tarot junto con Araceli y sus cursos.♥️☯️",
 	navItems: [
 		{

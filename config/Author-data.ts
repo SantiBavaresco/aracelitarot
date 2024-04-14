@@ -18,7 +18,7 @@ export const Author = {
         description3: "Todos los viernes a las 18.30 hs. ( Argentina)",
         description4: "No necesitas conocimientos previos",
     },
-    titleAbout: "Tarot y Numerología",
+    titleAbout: "Tarot",
     about1: "Me gusta especializarme en lo que hago. Estar en contacto con la naturaleza  y viajar para disfrutar y cultivarse con otras maneras de ver la vida. Muestro mis habilidades como tarotista, numerologa, grafologa, radiestesia y Vitkis o Seer (runas).",
     about2: "Soy simplemente una mujer apasionada por el Tarot aplicado a Terapias de ayuda para lograr que personas que no pueden ver soluciones para sus problemas, se den cuenta de cuantas herramientas poseen al alcance de su mano. 20 años de experiencia y cientos de personas que han pasado por mi consultorio, hablan por sí solas.",
     subtitle1: "Mi Pasado",

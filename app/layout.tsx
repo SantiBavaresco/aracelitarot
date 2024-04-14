@@ -25,6 +25,9 @@ export const metadata: Metadata = {
 		shortcut: "/favicon-16x16.png",
 		apple: "/apple-touch-icon.png",
 	},
+	openGraph: {
+		images: '/tAraceli3.png',
+	  },
 };
 
 export default function RootLayout({
