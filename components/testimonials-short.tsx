@@ -45,12 +45,12 @@ const TestimonialsComponentShort : React.FC<Props> = ({ index, testimonials }) =
                                             width={500}
                                         />
                                 </div>
-                                <h2 className="text-gray-900 font-medium -mt-4 title-font tracking-wider text-sm dark:text-high-orange">
+                                <h2 className="text-gray-900 font-medium -mt-4 title-font tracking-wider text-xl dark:text-high-orange">
                                     {item.name}
                                 </h2>
-                                <p className="text-gray-500 dark:text-gray-300">
+                                {/* <p className="text-gray-500 dark:text-gray-300">
                                     {item.rank}
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                     </section>
