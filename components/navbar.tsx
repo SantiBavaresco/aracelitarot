@@ -20,7 +20,7 @@ export const Navbar = () => {
                 {/* <AcmeLogo /> */}
 				<Link color="foreground" href="/" className="scroll-smooth">
 				<Image  src="../logo-tarot.png" className=" rounded-full border-1 border-black mt-2" alt="1" width={50} />
-                <p className="font-bold text-inherit ml-4 dark:text-gray-800">Araceli TAROT</p>
+                <p className="font-bold text-inherit ml-4 dark:text-gray-800">Araceli Abella</p>
 				</Link>
             </NavbarBrand>
             <NavbarContent className="hidden sm:flex gap-4" justify="center">

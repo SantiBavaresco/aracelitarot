@@ -40,8 +40,10 @@ export const Courses : Course[] = [
             {
                 id: `c1-t1`,
                 name: "Agustina",
+                imgUrl: "../img/c1t1.png",
                 testimonial:
                     "El tarot te cambia la vida y te puede cambiar la percepción de la vida.",
+                largeTestimonial: "Super recomiendo el asesoramiento de Araceli, estoy dando mis primeros pasos en el Tarot Terapéutico y me siento muy acompañada y estimulada.",
                 rank: "Est. Curso Presencial",
                 url: "https://youtu.be/L-40CcQr4KU",
                 videoId: "L-40CcQr4KU",
@@ -49,8 +51,10 @@ export const Courses : Course[] = [
             {
                 id: "c1-t2",
                 name: "Gabriela",
+                imgUrl: "../img/c1t2.png",
                 testimonial:
                     "La conexión con las cartas es impresionante, se los recomiendo.",
+                largeTestimonial: "La conexión con las cartas es impresionante, se los recomiendo. Fue de gran utilidad para mi profesión de psiquiatra.",
                 rank: "Est. Curso Presencial",
                 url: "https://youtu.be/nkA-z2jtgII",
                 videoId: "nkA-z2jtgII",
@@ -58,8 +62,10 @@ export const Courses : Course[] = [
             {
                 id: "c1-t3",
                 name: "Isabel",
+                imgUrl: "../img/c1t3.png",
                 testimonial:
                     "El curso fue genial, aprendimos mucho y la pasamos de diez.",
+                largeTestimonial: "Gracias por tu atención y conocimientos. Soy nueva en este tema y vos lo explicas claro y preciso y con una parte muy humana y empática.",
                 rank: "Est. Curso Presencial",
                 url: " https://youtu.be/Hf6mGYuarpY",
                 videoId: "Hf6mGYuarpY",

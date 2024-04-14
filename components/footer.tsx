@@ -7,7 +7,7 @@ import {
     IoLogoWhatsapp,
     IoLogoFacebook,
 } from "react-icons/io5";
-import { Author } from "@/config/Author-data";
+import { Author } from "@/config/Author-data-cursos";
 import { Tooltip } from "@nextui-org/tooltip";
 
 // import YouTube from "react-youtube";

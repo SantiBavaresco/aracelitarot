@@ -15,7 +15,9 @@ export interface Course {
 export interface Testimonial {
     id: string;
     name: string;
+    imgUrl: string;
     testimonial: string;
+    largeTestimonial: string;
     rank: string;
     url: string;
     videoId: string;
