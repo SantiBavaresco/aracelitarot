@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 		apple: "/apple-touch-icon.png",
 	},
 	openGraph: {
-		images: '/tAraceli3.png',
+		images: '/tAraceli3.jpeg',
 	  },
 };
 
@@ -38,7 +38,7 @@ export default function RootLayout({
 	return (
 		<html style={{scrollbarColor: "#fecb58 #ffedd5", scrollbarWidth: "thin", }} lang="en" suppressHydrationWarning >
 			<head >
-<meta property="og:image" content="/tAraceli3.png"/>
+<meta property="og:image" content="/tAraceli3.jpeg"/>
 <meta property="og:image:ratio" content="4:3"/>
 			</head>
 			<body
